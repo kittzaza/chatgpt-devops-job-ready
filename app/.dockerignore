@@ -1,0 +1,9 @@
+# Ignore files and directories for Docker build context
+# This helps to reduce the size of the build context
+node_modules
+.git
+dist
+.env
+Dockerfile
+.vscode
+npm-debug.log
