@@ -1,0 +1,11 @@
+
+version: "3.9"
+services:
+  app:
+    image: devops-app-prod:latest
+    container_name: devops-app-prod
+    restart: always
+    ports:
+      - "80:3000"
+    env_file:
+      - .env
